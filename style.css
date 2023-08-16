@@ -114,7 +114,8 @@ button {
     width: 128px;
     border-radius: 8px;
 }
-
-.images {
+.info {
     display: flex;
+    flex-direction: column;
+    width: 128px;
 }
