@@ -40,6 +40,9 @@ button,
 
 .logo {
     color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 #quote {
@@ -50,6 +53,8 @@ button,
 
 ul {
     list-style: none;
+    display: flex;
+    gap: 16px;
 }
 
 a {
