@@ -15,7 +15,6 @@ body {
     background-color: #1f2937;
     padding: 0px 64px;
     height: 40%;
-
 }
 
 .quote {
@@ -44,6 +43,8 @@ button,
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
+    display: flex;
+    justify-content: center;
 }
 
 .logo {
@@ -104,5 +105,16 @@ button {
 }
 
 .front {
+    display: flex;
+}
+
+.image {
+    border: solid #3882f6;
+    height: 128px;
+    width: 128px;
+    border-radius: 8px;
+}
+
+.images {
     display: flex;
 }
