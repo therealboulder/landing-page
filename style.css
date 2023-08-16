@@ -25,11 +25,13 @@ button,
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
+    width: 50%;
 }
 
 .secondary {
     font-size: 18px;
     color: #e5e7eb;
+    width: 50%;
 }
 
 .information {
@@ -71,3 +73,16 @@ a {
     background-color: #1f2937;
 }
 
+.front {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 100px;
+}
+
+.placeholder {
+    width: 600px;
+    height: 300px;
+}
