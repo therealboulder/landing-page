@@ -7,9 +7,9 @@ body {
     flex-direction: column;
 }
 
-.header,
-.footer {
+.header {
     background-color: #1f2937;
+    padding: 0 64px;
 }
 
 .quote {
@@ -63,4 +63,6 @@ a {
     justify-content: center;
     padding: 32px;
     margin-top: auto;
+    background-color: #1f2937;
 }
+
