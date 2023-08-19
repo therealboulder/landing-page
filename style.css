@@ -119,3 +119,13 @@ button {
     flex-direction: column;
     width: 128px;
 }
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.images {
+    display: flex;
+    gap: 16px;
+}
