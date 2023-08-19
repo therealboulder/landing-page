@@ -19,6 +19,7 @@ body {
 
 .quote {
     background-color: #e5e7eb;
+    height: 40%;
 }
 
 button,
@@ -130,4 +131,10 @@ button {
 .sub {
     text-align: justify;
     text-align-last: center;
+}
+
+.action {
+    display: block;
+    margin: 5vh;
+    width: 60%;
 }
