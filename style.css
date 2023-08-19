@@ -45,6 +45,7 @@ button,
     color: #1f2937;
     display: flex;
     justify-content: center;
+    padding: 32px;
 }
 
 .logo {
@@ -120,12 +121,13 @@ button {
     width: 128px;
 }
 
-.body {
-    display: flex;
-    flex-direction: column;
-}
-
 .images {
     display: flex;
-    gap: 16px;
+    justify-content: center;
+    gap: 32px;
+}
+
+.sub {
+    text-align: justify;
+    text-align-last: center;
 }
